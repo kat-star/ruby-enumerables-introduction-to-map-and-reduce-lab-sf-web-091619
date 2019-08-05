@@ -35,7 +35,8 @@ end
 def map_to_square(array)
   new_arr = []
   
-  array.each { |num| num 
+  array.each { |num| new_arr << num ** 2 }
+  new_arr
 end
 
 
