@@ -19,6 +19,7 @@ def map_to_no_change(array)
   end
     
   new_arr
+  #or just return array for easiest implementation of problem
 end
 
 def map_to_double(array)
