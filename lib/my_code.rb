@@ -51,6 +51,16 @@ def reduce_to_total(array, starting_point = 0)
 end
 
 def reduce_to_all(array)
+  i = 0
+  
+  while i < array.length
+    if array[i] == false
+      return false
+    end
+    i += 1
+  end
+  true
+end
 
 
 
