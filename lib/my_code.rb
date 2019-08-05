@@ -31,3 +31,12 @@ def map_to_double(array)
   end
   new_arr
 end
+
+def map_to_square(array)
+  new_arr = []
+  
+  array.each { |num| num 
+end
+
+
+
