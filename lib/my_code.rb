@@ -63,16 +63,13 @@ def reduce_to_all_true(array)
 end
 
 def reduce_to_any_true(array)
-  i = 0
   
-  while i < array.length
-    if array[i] != false || array[i] != nil
+  array.each do |ele|
+    if ele != false || ele != nil
       return true
     end
-    i += 1
   end
-  
-  false
+ false
 end
 
 
