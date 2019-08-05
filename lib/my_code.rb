@@ -65,7 +65,7 @@ end
 def reduce_to_any_true(array)
   
   array.each do |ele|
-    if ele != false || ele != nil
+    if ele != false && ele != nil
       return true
     end
   end
