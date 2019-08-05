@@ -66,7 +66,12 @@ def reduce_to_any_true(array)
   i = 0
   
   while i < array.length
-    if array[i] !=
+    if array[i] != false || array[i] != nil
+      return true
+    end
+    i += 1
+  end
+  false
 end
 
 
