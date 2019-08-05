@@ -54,7 +54,7 @@ def reduce_to_all(array)
   i = 0
   
   while i < array.length
-    if array[i] == false
+    if array[i] == false || array[i] == nil
       return false
     end
     i += 1
