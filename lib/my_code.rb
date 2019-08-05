@@ -17,7 +17,6 @@ def map_to_no_change(array)
     new_arr << array[i]
     i += 1
   end
-    
   new_arr
   #or just return array for easiest implementation of problem
 end
