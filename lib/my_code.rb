@@ -50,6 +50,8 @@ def reduce_to_total(array, starting_point = 0)
   total
 end
 
+def reduce_to_all(array)
+
 
 
 
