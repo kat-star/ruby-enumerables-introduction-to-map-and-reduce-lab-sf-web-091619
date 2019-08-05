@@ -1,4 +1,3 @@
-
 def map_to_negativize(array)
   new_arr = []
   i = 0
